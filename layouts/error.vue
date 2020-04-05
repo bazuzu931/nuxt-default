@@ -10,5 +10,9 @@
 		</div>
 
 		<nuxt-link to="/" class="l lp bg-r-400" >Back to Home</nuxt-link>
+		<div class="f fr bg-gray-500">
+			<div class="text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">1</div>
+			<div class="text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">2</div>
+		</div>
 	</div>
 </template>
