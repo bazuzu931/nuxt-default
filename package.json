@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-default",
+  "version": "1.0.0",
+  "description": "Default template (Nuxt + Apollo)",
+  "author": "bazuzu931",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.9.6",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "node-sass": "^4.13.1",
+    "nuxt": "^2.12.1",
+    "nuxt-sass-resources-loader": "^2.0.5",
+    "sass-loader": "^8.0.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.4.0",
+    "nodemon": "^2.0.2",
+    "push-dir": "^0.4.1"
+  }
+}
