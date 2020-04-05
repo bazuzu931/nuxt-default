@@ -1,15 +1,144 @@
 @tailwind base
 @tailwind components
 @tailwind utilities
+/*#####################################################################################################*/
+/*#####################################################################################################*/
 
-/*h tag*/
-.t-h1
+/* h tags*/
+.h
+	@apply text-gray-700
+.h1
 	@apply text-5xl
-.t-h2
+.h2
 	@apply text-4xl
-.t-h3
+.h3
 	@apply text-3xl
-.t-h4
+.h4
 	@apply text-2xl
-.t-h5
+.h5
 	@apply text-xl
+/*#####################################################################################################*/
+/* p tags*/
+.p
+	@apply text-gray-700
+.p1
+	@apply text-xs
+.p2
+	@apply text-sm
+.p-base
+	@apply text-base
+.p4
+	@apply text-xl
+.p5
+	@apply text-2xl
+.p6
+	@apply text-3xl
+.p7
+	@apply text-4xl
+.p8
+	@apply text-5xl
+/*#####################################################################################################*/
+/* Link */
+.l
+	@apply no-underline transition-all duration-300 ease-in-out
+/*#################################*/
+.lp
+	@apply text-blue-600
+.lp:hover
+	@apply text-blue-800
+
+/*#####################################################################################################*/
+/* Buttons*/
+.btn
+	@apply border py-2 px-4 rounded transition-all duration-300 ease-in-out
+/*#################################*/
+.btn-info
+	@apply  border border-gray-500 text-gray-700 bg-gray-100
+.btn-info:hover
+	@apply border border-gray-600 text-gray-900 bg-gray-300
+/*#################################*/
+.btn-pri
+	@apply text-white bg-blue-600
+.btn-pri:hover
+	@apply text-white bg-blue-700
+
+
+/*#####################################################################################################*/
+/*#####################################################################################################*/
+/*#####################################################################################################*/
+/*#####################################################################################################*/
+
+/* Tailwind default shortcuts */
+
+/*#####################################################################################################*/
+/* Box sizing */
+/*#################################*/
+/* Display */
+.hi
+	@apply hidden
+.bl
+	@apply block
+.ibl
+	@apply inline-block
+.in
+	@apply inline
+.f
+	@apply flex
+.if
+	@apply inline-flex
+.g
+	@apply grid
+.t
+	@apply table
+
+/*#################################*/
+/* Float */
+.fr
+	@apply float-right
+.fl
+	@apply float-left
+.fn
+	@apply float-none
+
+/*#################################*/
+/* Clear */
+.cl
+	@apply clear-left
+.cr
+	@apply clear-right
+.cb
+	@apply clear-both
+
+/*#################################*/
+/* Object Fit */
+.ocon
+	@apply object-contain
+.ocov
+	@apply object-cover
+.of
+	@apply object-fill
+.on
+	@apply object-none
+.osd
+	@apply object-scale-down
+
+/*#################################*/
+/* Object Position */
+.ob
+	@apply object-bottom
+.oc
+	@apply object-center
+.ol
+	@apply object-left
+.olf
+	@apply object-left-bottom
+.olt
+	@apply object-left-top
+.or
+	@apply object-right
+.orf
+	@apply object-right-bottom
+.ort
+	@apply object-right-top
+.ot
+	@apply object-top
