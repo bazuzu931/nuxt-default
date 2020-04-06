@@ -1,6 +1,6 @@
 @tailwind base
 @tailwind components
-@tailwind utilities
+
 /*#####################################################################################################*/
 /*#####################################################################################################*/
 
@@ -65,8 +65,13 @@
 .btn-pri:hover
 	@apply text-white bg-blue-700
 
-
 /*#####################################################################################################*/
+/*#####################################################################################################*/
+/*#####################################################################################################*/
+
+/*By importing utilities after createing new components we can rewrite new styles for new conponents */
+@tailwind utilities
+
 /*#####################################################################################################*/
 /*#####################################################################################################*/
 /*#####################################################################################################*/
@@ -225,13 +230,78 @@
 
 /*#################################*/
 /* Align Items */
-.istre
+.istr
 	@apply items-stretch
-.ista
+.is
 	@apply items-start
-.icen
+.ic
 	@apply items-center
-.iend
+.ie
 	@apply items-end
-.ibas
+.ib
 	@apply items-baseline
+
+/*#################################*/
+/* Align Content */
+.cons
+	@apply content-start
+.conc
+	@apply content-center
+.cone
+	@apply content-end
+.conb
+	@apply content-around
+.cona
+	@apply content-between
+
+/*#################################*/
+/* Align Self */
+.sa
+	@apply self-auto
+.ss
+	@apply self-start
+.sc
+	@apply self-center
+.se
+	@apply self-end
+.sstr
+	@apply self-stretch
+
+/*#################################*/
+/* Justify Content */
+.js
+	@apply justify-start
+.jc
+	@apply justify-center
+.je
+	@apply justify-end
+.jb
+	@apply justify-between
+.ja
+	@apply justify-around
+
+/*#################################*/
+/* Flex */
+.fi
+	@apply flex-initial
+.f1
+	@apply flex-1
+.fauto
+	@apply flex-auto
+.fn
+	@apply flex-none
+
+/*#################################*/
+/* Flex Grow */
+.fg
+	@apply flex-grow
+.fg0
+	@apply flex-grow-0
+
+/*#################################*/
+/* Flex Shrink */
+.fsh
+	@apply flex-shrink
+.fsh0
+	@apply flex-shrink-0
+
