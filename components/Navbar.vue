@@ -1,13 +1,9 @@
 <template>
-	<header>
+	<header class=" mb-10 bg-blue-500  "  >
 
 		<!-- Responsive navbar -->
-		<div class="  "  >
-			<!-- bg Wave -->
-			<svg class=" absolute z-0 "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-			  <path fill="#0099ff" fill-opacity="1" d="M0,288L1440,256L1440,0L0,0Z"></path>
-			</svg>
-			<div class="flex items-center px-4 py-3">
+		<div>
+			<div class="flex items-center justify-between px-4 py-3 ">
 				<!-- Logo -->
 				<div class=" z-10 "  >
 					<nuxt-link to="/" class="logo flex items-center"  >
@@ -19,18 +15,21 @@
 				</div>
 				<!-- Respon Menu button -->
 				<div class=" z-10 "  >
-					<button  class="block focus:outline-none "  >
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu h-8 lg:h-12 fill-current text-white "><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+					<button @click="isOpen = !isOpen" type="button"  class="block focus:outline-none "  >
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class=" h-8 lg:h-12 fill-current text-white  ">
+						  <path  v-if="!isOpen" d="M3 12h18M3 6h18M3 18h18"/>
+						  <path  v-if="isOpen" d="M18 6L6 18M6 6l12 12" />
+						</svg>
 					</button>
 				</div>
 			</div>
 		</div>
 
 		<!-- Lg+ navbar -->
-		<div class=" block ">
-			<nuxt-link class=" z-10 block  "  to="/">Home</nuxt-link>
-			<nuxt-link class=" z-10 block  "  to="/about">About</nuxt-link>
-			<nuxt-link class=" z-10 block  "  to="/users">Users</nuxt-link>
+		<div :class="isOpen ? 'flex flex-col' : 'hidden' " class="  px-2 pt-2 pb-4  ">
+			<nuxt-link class=" z-12 text-white font-semibold text-xl px-2 py-1 "  to="/">Home</nuxt-link>
+			<nuxt-link class=" z-10 text-white font-semibold text-xl mt-1 px-2 py-1 "  to="/about">About</nuxt-link>
+			<nuxt-link class=" z-10 text-white font-semibold text-xl mt-1 px-2 py-1 "  to="/users">Users</nuxt-link>
 		</div>
 
 	</header>
@@ -40,7 +39,7 @@
 	export default
 	{
 		data: () => ({
-
+			isOpen: false
 		}),
 
 		components: {
