@@ -9,17 +9,19 @@ module.exports = {
     },
 // #####################################################################
     screens: {
-      sm4: '240px',
-      sm3: '320px',
-      sm2: '480px',
-      sm: '640px',
+      sm4: '320px',
+      sm3: '360px',
+      sm2: '420px',
+      sm:  '640px',
+
       md: '768px',
       lg: '1024px',
+
       xl: '1280px',
-      xl2: '1360px',
-      xl3: '1440px',
-      xl4: '1600px',
-      xl5: '1920px',
+      xl2: '1366px',
+      xl3: '1920px',
+      xl4: '2560px',
+      xl5: '3840px',
     },
     colors: {
       transparent: 'transparent',
