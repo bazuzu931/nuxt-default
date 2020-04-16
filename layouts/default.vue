@@ -5,14 +5,14 @@
 		<Navbar />
 
 		<!-- Content -->
-		<main class="content flex-grow ">
+		<main class="content flex-grow mx-auto w-10/12 ">
 			<nuxt/>
 		</main>
 		<main>
 		</main>
 
-		<footer class="footer  ">
-			Footer
+		<footer>
+			<Footer />
 		</footer>
 
 	</div>
@@ -25,6 +25,7 @@
 
 <script>
 	import Navbar from '@/components/Navbar'
+	import Footer from '@/components/Footer'
 	export default
 	{
 		data: () => ({
@@ -33,6 +34,7 @@
 
 		components: {
 			Navbar,
+			Footer,
 		}
 	}
 </script>

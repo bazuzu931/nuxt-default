@@ -1,5 +1,5 @@
 <template>
-	<div  class=" mx-auto w-10/12 "  >
+	<div  class="  "  >
 		<h1>About page</h1>
 
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id a corporis, porro mollitia vitae explicabo magni. Possimus, temporibus, nostrum. Itaque?</p>
