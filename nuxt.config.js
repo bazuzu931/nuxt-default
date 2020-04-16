@@ -12,7 +12,10 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    ],
+    script: [
+      { src: 'https://unpkg.com/ionicons@5.0.0/dist/ionicons.js' },
     ]
   },
   /*

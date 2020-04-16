@@ -1,5 +1,5 @@
 <template>
-	<header class=" mb-10 bg-blue-500  "  >
+	<header class=" mb-10 bg-orange-500  "  >
 
 		<div class="  sm:flex sm:justify-between sm:items-center md:w-11/12 md:mx-auto ">
 			<div>
@@ -26,10 +26,9 @@
 			</div>
 
 			<!-- Lg+ navbar -->
-			<div :class="isOpen ? 'flex flex-col' : 'hidden' " class="  px-2 pt-2 pb-4 sm:block  ">
-				<nuxt-link class=" z-12 text-white  text-xl px-2 py-1 "  to="/">Home</nuxt-link>
-				<nuxt-link class=" z-10 text-white  text-xl mt-1 px-2 py-1 "  to="/about">About</nuxt-link>
-				<nuxt-link class=" z-10 text-white  text-xl mt-1 px-2 py-1 "  to="/users">Users</nuxt-link>
+			<div :class="isOpen ? 'flex flex-col' : 'hidden' " class="  px-2 pt-2 pb-4 sm:block uppercase ">
+				<nuxt-link class=" z-10 text-white  text-lg mt-1 px-8 py-1 "  to="/contacts">Контакты</nuxt-link>
+				<nuxt-link class=" z-10 text-white  text-lg mt-1 px-8 py-1 "  to="/about">О нас</nuxt-link>
 			</div>
 		</div>
 		<!-- Responsive navbar -->
