@@ -15,7 +15,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ],
     script: [
-      { src: 'https://unpkg.com/ionicons@5.0.0/dist/ionicons.js' },
+      { src: "https://unpkg.com/ionicons/dist/ionicons.js", body: true }
     ]
   },
   /*

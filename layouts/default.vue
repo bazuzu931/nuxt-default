@@ -5,23 +5,18 @@
 		<Navbar />
 
 		<!-- Content -->
-		<main class="content flex-grow mx-auto w-10/12 ">
+		<main class="content flex-grow mx-auto min-h-screen w-10/12 ">
 			<nuxt/>
 		</main>
 		<main>
 		</main>
 
-		<footer>
+		<footer class="  "  >
 			<Footer />
 		</footer>
 
 	</div>
 </template>
-
-<style lang="sass" scoped>
-
-</style>
-
 
 <script>
 	import Navbar from '@/components/Navbar'
