@@ -1,5 +1,5 @@
 <template>
-	<header class=" mb-10 bg-orange-500  "  >
+	<header class=" mb-10 bg-blue-500  "  >
 
 		<div class="  sm:flex sm:justify-between sm:items-center md:w-11/12 md:mx-auto ">
 			<div>

@@ -1,5 +1,5 @@
 <template>
-	<div class=" bg-orange-500 ">
+	<div class=" bg-blue-500 ">
 		<div class=" flex flex-col w-11/12 mx-auto  antialiased  py-4  ">
 
 
