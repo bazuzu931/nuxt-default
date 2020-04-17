@@ -12,21 +12,21 @@
 			<!-- Footer contacts -->
 			<div class="    ">
 				<div class=" w-3/5 t py-2 ">
-					<p class=" pb-1 "  > <ion-icon class=" t "  name="call"></ion-icon> <span>+7 (994) 50 111-11-11</span></p>
-					<p class=" pb-1 "  > <ion-icon class=" t "  name="call"></ion-icon> <span>+7 (994) 50 222-22-22</span></p>
+					<p class=" pb-1 "  > <ion-icon class=" t "  name="call"></ion-icon> <a href="tel:+994507784055">+(994) 50 111-11-11</a></p>
+					<p class=" pb-1 "  > <ion-icon class=" t "  name="call"></ion-icon> <a href="tel:+994507784055">+(994) 50 222-22-22</a></p>
 				</div>
 				<!-- Footer Email -->
 				<div class=" w-3/5  border-t border-dashed border-gray-900 py-2">
 					<div class=" flex items-center "  >
 						<ion-icon class=" t "   name="mail"></ion-icon>
-						<span class=" t pl-2">limon931@mail.ru</span>
+						<a href="mailto:bazuzu931@yandex.ru" class=" t pl-2">limon931@mail.ru</a>
 					</div>
 				</div>
 				<!-- Footer nav -->
 				<div class=" w-3/5  border-t border-dashed border-gray-900 py-2">
 					<div class=" flex items-center "  >
 						<ion-icon class=" t "   name="compass"></ion-icon>
-						<span class="t  pl-2">Баку, ул. Джафар Джаббарлы</span>
+						<a href="https://goo.gl/maps/BJBv2e5XYyU1K3j29" class="t  pl-2">Баку, ул. Джафар Джаббарлы</a>
 					</div>
 				</div>
 			</div>

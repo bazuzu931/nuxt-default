@@ -8,7 +8,7 @@
 					<div class=" z-10  "  >
 						<nuxt-link to="/" class="logo flex items-center"  >
 							<div class="logo-img">
-								<ion-icon class=" t text-gray-200 "   name="compass"></ion-icon>
+
 							</div>
 							<span class=" text-lg lg:text-2xl font-bold  pl-2 t text-gray-200 "> Logo</span>
 						</nuxt-link>
