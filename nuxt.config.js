@@ -54,6 +54,9 @@ export default {
     'nuxt-sass-resources-loader',
     '@nuxtjs/style-resources',
     '@nuxtjs/axios',
+    // cache
+    '@nuxtjs/component-cache',
+    ['@nuxtjs/component-cache', { maxAge: 1000 * 60 * 60 }],  /*cache 15 minutes*/
   ],
   styleResources: {
     sass: [
