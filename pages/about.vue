@@ -1,6 +1,6 @@
 <template>
 	<div  class="  "  >
-		<h1>About page</h1>
+		<h1>About Tapad</h1>
 
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id a corporis, porro mollitia vitae explicabo magni. Possimus, temporibus, nostrum. Itaque?</p>
 
