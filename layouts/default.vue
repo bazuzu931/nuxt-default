@@ -24,15 +24,17 @@
 
 
 <script>
+	import customIcon from 'vue-icon/lib/vue-feather.esm'
 	import Navbar from '@/components/Navbar'
 	import Footer from '@/components/Footer'
 	export default
 	{
 		data: () => ({
-
+			baseClass: 'v-icon'
 		}),
 
 		components: {
+			customIcon,
 			Navbar,
 			Footer,
 		}
