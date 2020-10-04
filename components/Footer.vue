@@ -12,8 +12,10 @@
 			<!-- Footer contacts -->
 			<div class="  w-3/5  ">
 				<div class=" w-3/5  t py-2 ">
-					<p class=" pb-1 "  > <ion-icon class=" t "  name="call"></ion-icon> <a href="tel:+994507784055">+(994) 50 111-11-11</a></p>
+					<p class=" pb-1 "  > <ion-icon class="tel t "  name="call"></ion-icon> <a href="tel:+994507784055">+(994) 50 111-11-11</a></p>
 					<p class=" pb-1 "  > <ion-icon class=" t "  name="call"></ion-icon> <a href="tel:+994507784055">+(994) 50 222-22-22</a></p>
+					<ion-icon class=" text-white-500 "  name="airplane-outline"></ion-icon>
+
 				</div>
 				<!-- Footer Email -->
 				<div class="   border-t border-dashed border-gray-900 py-2">
@@ -34,6 +36,11 @@
 
 	</div>
 </template>
+
+<style lang="sass" scoped>
+	.tel
+		font-size: 2rem
+</style>
 
 
 <script>
