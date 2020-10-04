@@ -7,7 +7,7 @@
         <v-icon name="eye"></v-icon>
         <v-icon name="x"></v-icon>
         <p class="aa ">rrr
-          <custom-icon  name="eye" base-class="custom-icon"></custom-icon>
+          <custom-icon class="aa"  name="eye" base-class="custom-icon"></custom-icon>
         </p>
     </div>
 
@@ -17,7 +17,7 @@
 
 <style lang="sass" scoped>
   .aa
-    font-size: 1rem
+    font-size: 60px !important
   .icon
     color: #666
 
