@@ -14,7 +14,7 @@
     "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/axios": "^5.12.5",
     "@nuxtjs/component-cache": "^1.1.6",
     "@nuxtjs/style-resources": "^1.0.0",
     "node-sass": "^4.14.1",
@@ -22,7 +22,8 @@
     "nuxt-sass-resources-loader": "^2.0.5",
     "sass-loader": "^10.0.2",
     "vue-icon": "^2.1.2",
-    "vue-material": "^1.0.0-beta-15"
+    "vue-material": "^1.0.0-beta-15",
+    "vue-material-design-icons": "^4.11.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^3.1.0",

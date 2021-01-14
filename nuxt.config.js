@@ -1,5 +1,8 @@
 
 export default {
+  // mode: 'universal',
+  target: 'static',
+  // router: { base: 'home/momo/Desktop/Nuxt-Master/dist/' },
   /*
   ** Headers of the page
   */
@@ -14,7 +17,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ],
     script: [
-      { src: 'https://unpkg.com/ionicons@5.0.0/dist/ionicons.js' },
+
     ]
   },
   /*
@@ -74,5 +77,9 @@ export default {
     extend (config, ctx) {
     }
   },
+
+  generate: {
+      // dir: 'folder name'
+    }
 
 }
